@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({question}) => {
     return (
         <>
           <h1>Hangman</h1>  
-          <p>Find the hidden word - Enter a letter</p>
+          <p>{question}</p>
         </>
     )
 }
